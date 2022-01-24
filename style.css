@@ -1,0 +1,114 @@
+:root {
+  --primary-color: #335f88;
+
+  --secondary-color: rgba(232, 232, 232, 0.5);
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+body {
+  margin-top: 100px;
+}
+h1,
+h2,
+h3 {
+  margin: 0px;
+  color: #2d2d2e;
+}
+h1 {
+  font-size: 96px;
+}
+h2 {
+  font-size: 48px;
+}
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+}
+p {
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.img-size {
+  width: 456px;
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+.navigation-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+
+  text-transform: capitalize;
+}
+.paragraph-header {
+  margin-bottom: 16px;
+}
+.launch-buttons {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background-color: var(--primary-color);
+  color: white;
+  box-shadow: var(--box-shadow);
+}
+
+.contact-link {
+  background-color: var(--primary-color);
+  color: white;
+  box-shadow: var(--box-shadow);
+}
+.about-me-link {
+  border: var(--primary-color) solid 1px;
+  background-color: white;
+  color: var(--primary-color);
+}
+.back-links {
+  text-align: center;
+  color: var(--primary-color);
+
+  display: block;
+}
+
+.about-paragraphs {
+  display: flex;
+  margin: 30px 0;
+}
+
+.about-paragraphs p {
+  margin: 10px;
+}
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+@media (max-width: 567px) {
+  h1 {
+    font-size: 48px;
+  }
+  h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+  h3 {
+    font-size: 24px;
+  }
+  .button-format {
+    text-align: center;
+  }
+  .content-img {
+    padding-top: 20px;
+  }
+  #contact {
+    padding-top: 15px;
+  }
+}
